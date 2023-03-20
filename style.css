@@ -1,3 +1,7 @@
+:root {
+    --time: 10s;
+}
+
 body {
     width: 100%;
     background: blue;
@@ -65,9 +69,9 @@ th {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     /* Apply animation to this element */
-    -moz-animation: scroll-left 10s linear infinite;
-    -webkit-animation: scroll-left 10s linear infinite;
-    animation: scroll-left 10s linear infinite;
+    -moz-animation: scroll-left var(--time) linear infinite;
+    -webkit-animation: scroll-left var(--time) linear infinite;
+    animation: scroll-left var(--time) linear infinite;
 }
 
 /* Move it (define the animation) */

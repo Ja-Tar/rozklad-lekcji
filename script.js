@@ -15,3 +15,7 @@ function insRow(sala=0, lekcja="TEST", klasa="SYSTEMU", uwagi="-")
     <td id="${len}K" class="klasa">${klasa}</td>
     <td id="${len}U" class="uwagi">${uwagi}</td>`;
 }
+
+var czas = 10 + (window.innerWidth / 400)
+console.log(screen.width)
+document.documentElement.style.setProperty('--time', `${czas}s`);
