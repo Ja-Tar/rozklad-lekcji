@@ -59,7 +59,7 @@ th {
 
 .scroll-left p {
     position: absolute;
-    width: 120%;
+    width: auto;
     height: 100%;
     margin: 0;
     line-height: 50px;
